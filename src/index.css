@@ -10,7 +10,7 @@ body {
     
 }
 
-/*na*/
+/*nav bar css*/
 .nav-bar {
     height: 70px;
     display: flex;
@@ -21,5 +21,71 @@ body {
 
 .nav--logo {
   max-width: 100px;
+
 }
+
+.gray {
+    color: #918E9B;
+}
+
+
+
+/*Hero section*/
+
+
+
+.house {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 2%;
+  
+}
+
+.heading-paragraph {
+  margin-left: 36px;
+  margin-top: 36px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+
+/* Card section*/
+
+
+
+.card {
+    width: 175px;
+    font-size: 12px;
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 14px;
+}
+
+
+
+
+
+
+
+
 
