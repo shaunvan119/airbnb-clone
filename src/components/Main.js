@@ -1,9 +1,13 @@
-
+import cooking from '../assets/cooking.png'
 
 
 
 export default function Main() {
-    return <h1>Main component</h1>
+    return (
+        <main className="main-section">
+        <img src={cooking} alt="Logo" />  
+        </main>
+    )
 }
 
 
